@@ -40,8 +40,6 @@ console.log("Express server is now running on " + port);
 //Express routes
 app.use("/", express.static("public_html/") );
 
-app.use("/summary", express.static("javascript-summary/"));
-
 app.post("/sayHello", (request, response) => {
     console.log("Someone said hello!");
 
