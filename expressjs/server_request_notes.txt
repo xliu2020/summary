@@ -1,0 +1,19 @@
+/sayHello
+
+what I should send = {
+message: string // No reason to have this
+number: string // Value the user chose to submit
+}
+
+what I expect from the back-end = {
+results: boolean // whether I won or not
+error: boolean // the number was out of range of 1 to 10.
+}
+
+/getPreviousEntries
+what I should send = {
+} (an empty object)
+
+what I expect from the back-end = {
+latestEntries: [{entry Object}, ...]
+}
